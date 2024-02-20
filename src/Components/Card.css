@@ -1,0 +1,60 @@
+.card {
+  width: 250px;
+  height: 320px;
+  background-color: #4b0082;
+  padding: 0 20px 20px 10px;
+
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+.card-header {
+  text-align: left;
+}
+
+h1 {
+  color: #ffce33;
+  width: 80%;
+}
+
+.card-body {
+  margin-top: 20px;
+}
+
+.essay-question {
+  color: white;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+.marks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marks .max-marks {
+  color: white;
+  font-style: bold;
+}
+.maxi {
+  color: white;
+}
+.mini {
+  color: #ff3b30;
+}
+.marks .min-marks {
+  color: #ff3b30;
+  font-style: bold;
+}
+
+.attempt-btn {
+  background-color: #ffce33;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
