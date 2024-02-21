@@ -1,12 +1,11 @@
+import { useNavigate } from "react-router-dom";
 import "./Card.css";
 import React from "react";
 
 const Card = ({form , setForm }) => {
-  const handleSubmit = ()=>{
-    setForm(!form);
-
-  }
+const navigate  = useNavigate();
   return (
+    
     <>
  
     <div className="card">
@@ -32,7 +31,10 @@ const Card = ({form , setForm }) => {
             Min Marks: <span className="min-marks">50</span>
           </p>
         </div>
-        <button className="attempt-btn" onClick={handleSubmit}><strong>ATTEMPT</strong></button>
+        
+        <button className="attempt-btn" onClick={()=>navigate("/form")}><strong>ATTEMPT</strong></button>
+        
+        
       </div>
     </div>
     </>

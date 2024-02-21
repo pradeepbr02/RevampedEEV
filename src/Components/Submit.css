@@ -1,70 +1,68 @@
-body{
-    background-color: #001f3f;;
+body {
+  background-color: #001f3f;
 }
-.container2{
-    padding-top: 25px;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    gap: 30px;
-    align-items: center;
-    padding-bottom: 20px;
-   
-    
+.container2 {
+  padding-top: 25px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  gap: 30px;
+  align-items: center;
+  padding-bottom: 20px;
 }
-.box{
-    background-color:  #4b0082;
-    color: white;
-    display: grid;
-    place-items: center;
-    width: 40%;
-    border-radius: 1rem;
-    padding-right: 10px;
-    padding-bottom: 20px;
+.box {
+  background-color: #4b0082;
+  color: white;
+  display: grid;
+  place-items: center;
+  width: 40%;
+  border-radius: 1rem;
+  padding-right: 10px;
+  padding-bottom: 20px;
 }
-.wc{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
+.wc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
 }
-.graded-score{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
+.graded-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
 }
-.max-score{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 50%;
+.max-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
 }
-.summary{
-    background-color: #ffce33;
-    border-radius: 1rem;
-    height: 200px;
-    overflow-y: scroll;
-    scrollbar-width: none;
-    margin: auto 40px auto 40px;
-    padding-left: 30px;
-    padding-right: 10px;
-    width: 60%;
+.summary {
+  background-color: #ffce33;
+  border-radius: 1rem;
+  height: 200px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  margin: auto 40px auto 40px;
+  padding-left: 30px;
+  padding-right: 10px;
+  width: 60%;
 }
 /* .summary ::-webkit-scrollbar{
     display: none;
 } */
+
 .submit2-btn {
-    background-color: #ffce33;
-    color: black;
-    border: none;
-  
-    display: grid;
-    place-items: center;
-    grid-template-columns: 1fr 2fr;
-    height: 50px;
-    border-radius:1rem;
-    cursor: pointer;
-    width: 5rem;
-  }
-  
+  background-color: #ffce33;
+  color: black;
+  border: none;
+  padding-right: 10px;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 2fr;
+  height: 50px;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 6rem;
+}
