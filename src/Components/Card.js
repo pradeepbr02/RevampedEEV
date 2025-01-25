@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import "./Card.css";
 import React from "react";
 
-const Card = ({form , setForm }) => {
+const Card = ( ) => {
 const navigate  = useNavigate();
   return (
     
